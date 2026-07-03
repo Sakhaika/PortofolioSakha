@@ -58,3 +58,17 @@ body {
 .nav-links a:hover {
   color: #ffdd57;
 }
+
+#home {
+  padding: 0;
+  margin: 30px;
+}
+
+#about {
+  padding: 0;
+  margin: 30px;
+}
+
+#about p {
+  margin: 30px 0px;
+}
