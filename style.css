@@ -31,9 +31,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
-.brand-logo {
+.nama {
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -64,11 +66,22 @@ body {
   margin: 30px;
 }
 
+.pembukaan {
+  text-align: center;
+}
+
 #about {
   padding: 0;
   margin: 30px;
+  text-align: center;
+  color: black;
 }
 
 #about p {
   margin: 30px 0px;
+}
+
+.tentang {
+  background-color: white;
+  border-radius: 26px;
 }
