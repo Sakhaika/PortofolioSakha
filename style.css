@@ -1,26 +1,50 @@
-nav {
-  background-color: cornflowerblue;
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
   display: flex;
-  border-radius: 26px;
-  color: blue;
 }
 
-nav h1 {
-  padding: 0px 20px;
-}
-nav ul {
-  list-style-type: none;
+li {
+  padding-left: 20px;
+  list-style: none;
 }
 
-nav ul li {
-  float: right;
-  padding: 20px;
-}
-
-nav ul li a {
+li a {
   text-decoration: none;
-  list-style-type: none;
-  color: red;
 }
 
-/* nav -> h1, ul -> li -> a */
+#card {
+  gap: 20px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#card .container-1 {
+  border: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+#card .container-2 {
+  border: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+#card .container-3 {
+  border: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+#contact form input,
+#contact form button {
+  display: block;
+}
